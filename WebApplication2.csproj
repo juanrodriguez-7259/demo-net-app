@@ -4,9 +4,12 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+    <ApplicationInsightsResourceId>/subscriptions/45038754-fa76-4b9d-8ca4-706d96f1c4ec/resourceGroups/mygr3/providers/microsoft.insights/components/az-webapp4-gh</ApplicationInsightsResourceId>
+    <UserSecretsId>d8e034bd-6c92-4247-b515-049b5bd47ecb</UserSecretsId>
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.21.0" />
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="8.0.3" />
   </ItemGroup>
 
